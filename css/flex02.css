@@ -1,0 +1,19 @@
+div.header{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(221, 185, 255);
+    height: 200px;
+    align-items: center;
+    /*align-items: flex-start;기본값
+    align-items: center; 가운데정렬
+    align-items: flex-end;아래정렬*/
+    align-items: stretch; /*자동으로 부모와자식의 높이가 같아짐*/
+}
+div.menu{
+    background-color: rgb(221, 193, 248);
+    padding: 20px;
+    margin: 5px;
+    height: 40px;
+}

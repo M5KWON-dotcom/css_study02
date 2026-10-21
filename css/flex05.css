@@ -1,0 +1,26 @@
+div.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 40px;
+}
+div.menu{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+div.login{
+    padding: 10px;
+    background-color: #1b41ec;
+    color:#eee;
+    border-radius: 7px;
+}
+h2.logo{
+    color: #1b41ec;
+    font-size: 25px;
+}

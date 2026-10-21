@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #222;
+    color:aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: #444;
+    text-align: center;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+}
+main{
+    padding: 30px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: #807e7e;
+}
+@media (max-width:600px){
+    nav a{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #666666;
+    main{
+    padding: 15x;
+    text-align: center;
+    }
+}
+}
